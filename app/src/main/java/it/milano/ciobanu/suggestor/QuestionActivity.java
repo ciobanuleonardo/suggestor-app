@@ -2,6 +2,8 @@ package it.milano.ciobanu.suggestor;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class QuestionActivity extends AppCompatActivity {
@@ -12,8 +14,7 @@ public class QuestionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_question);
 
     // Example of a call to a native method
-    TextView tv = (TextView) findViewById(R.id.sample_text);
-    tv.setText(stringFromJNI());
+    ImageButton ib = (ImageButton) findViewById(R.id.submit_button);
     }
 
     /**

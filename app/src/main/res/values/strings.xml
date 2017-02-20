@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Suggestor</string>
+    <string name="question_title">Rispondi alle domande in base alle tue preferenze</string>
 </resources>
